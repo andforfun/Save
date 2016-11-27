@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD518A4E1DE6D95F00F38FF8 /* StaticTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518A4D1DE6D95F00F38FF8 /* StaticTableViewController.swift */; };
+		AD518A501DE6DE9500F38FF8 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD518A4F1DE6DE9500F38FF8 /* addViewController.swift */; };
 		ADEF041F1DD99509007D1E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF041E1DD99509007D1E55 /* AppDelegate.swift */; };
 		ADEF04211DD99509007D1E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEF04201DD99509007D1E55 /* ViewController.swift */; };
 		ADEF04241DD99509007D1E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEF04221DD99509007D1E55 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD518A4D1DE6D95F00F38FF8 /* StaticTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTableViewController.swift; sourceTree = "<group>"; };
+		AD518A4F1DE6DE9500F38FF8 /* addViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
 		ADEF041B1DD99509007D1E55 /* PostData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEF041E1DD99509007D1E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADEF04201DD99509007D1E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 		ADEF041D1DD99509007D1E55 /* PostData */ = {
 			isa = PBXGroup;
 			children = (
+				ADEF04561DDEF316007D1E55 /* MyPlayground.playground */,
 				ADEF041E1DD99509007D1E55 /* AppDelegate.swift */,
 				ADEF04201DD99509007D1E55 /* ViewController.swift */,
 				ADEF04221DD99509007D1E55 /* Main.storyboard */,
-				ADEF04561DDEF316007D1E55 /* MyPlayground.playground */,
+				AD518A4F1DE6DE9500F38FF8 /* addViewController.swift */,
+				AD518A4D1DE6D95F00F38FF8 /* StaticTableViewController.swift */,
 				ADEF04541DDEB5DA007D1E55 /* EditViewController.swift */,
 				ADEF04301DD99AD9007D1E55 /* InterducePageViewController.swift */,
 				ADEF04251DD99509007D1E55 /* Assets.xcassets */,
@@ -148,6 +154,8 @@
 				ADEF04551DDEB5DA007D1E55 /* EditViewController.swift in Sources */,
 				ADEF04211DD99509007D1E55 /* ViewController.swift in Sources */,
 				ADEF041F1DD99509007D1E55 /* AppDelegate.swift in Sources */,
+				AD518A4E1DE6D95F00F38FF8 /* StaticTableViewController.swift in Sources */,
+				AD518A501DE6DE9500F38FF8 /* addViewController.swift in Sources */,
 				ADEF04311DD99AD9007D1E55 /* InterducePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4Q9VP7TD9;
 				INFOPLIST_FILE = PostData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appcoda.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4Q9VP7TD9;
 				INFOPLIST_FILE = PostData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appcoda.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
