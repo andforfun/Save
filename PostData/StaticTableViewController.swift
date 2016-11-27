@@ -120,6 +120,7 @@ class StaticTableViewController: UITableViewController {
         self.data.remove(at: indexPath.row)
         tableView.deleteRows(at:[indexPath], with:
             UITableViewRowAnimation.fade)
+        writeData()
         
     }
     
